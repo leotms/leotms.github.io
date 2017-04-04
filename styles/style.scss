@@ -1,0 +1,117 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "bootstrap";
+
+@font-face {
+  font-family: "Anton";
+  src: url('../fonts/antonregular.ttf');
+}
+
+@font-face {
+  font-family: "OpenSansCL";
+  src: url('../fonts/opensans.ttf');
+}
+
+@font-face {
+  font-family: "CarroisGothic";
+  src: url('../fonts/carroisgothic.ttf');
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url('../fonts/monserratsemi.ttf');
+}
+
+
+/* RGB */
+$color_blue: #337ab7;
+
+.leotms-home {
+  background: url('../img/homebackground.gif');
+  background-repeat: repeat;
+  height: 100vh;
+  font-family: "CarroisGothic";
+  color: #FFFFFF;
+}
+
+.leotms-home-name {
+  font-size: 50px;
+}
+
+.leotms-home-namebox {
+
+  margin: 30vh 0 0 10vw;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 0;
+  }
+
+  li {
+    float: left;
+    font-size: 20px;
+  }
+
+  li a {
+      font-family: "OpenSansCL";
+      display: block;
+      text-align: left;
+      padding-right: 15px;
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+
+  li a:hover {
+      color: $color_blue;
+  }
+
+}
+
+.leotms-home-last-projects {
+
+    h3 {
+      color: $color_blue;
+      font-size: 25px;
+      font-weight: bold;
+      margin: 1vh auto;
+      text-align: center;
+    }
+
+    h2, p {
+      text-align: center;
+    }
+
+    .leotms-home-lastest-project-box {
+      margin: 5vh auto;
+    }
+}
+
+.leotms-home-carousel {
+  margin: 10vh auto;
+  width: 70%;
+  height: 50vh;
+
+  .carousel-control.left, .carousel-control.right {
+    background-image: none;
+  }
+
+  i {
+    margin-top: 25vh;
+  }
+}
+
+.sexy-line{
+    display:block;
+    border:none;
+    height:1px;
+    background: #FFFFFF;
+    max-width: 500px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+/* any style customization must be before the bootstrap import */

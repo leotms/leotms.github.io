@@ -1,0 +1,37 @@
+{% include head.html %}
+
+<div id="main">
+  <div class="jumbotron leotms-home">
+      <div class="row">
+        <!-- first column -->
+        <div class="col-md-6">
+          <div class="leotms-home-namebox">
+            <h2 class="leotms-home-name"> LEONARDO MARTÍNEZ</h2>
+            <span class="sexy-line"></span>
+            <ul>
+              <li><a href="#"> ABOUT </a> </li>
+              <li><a href="#"> PROJECTS </a> </li>
+              <li><a href="#"> CV </a> </li>
+              <li><a href="#"> CONTACT </a> </li>
+            </ul>
+            <ul>
+              <li> <a href="#"> <i class="fa fa-twitter"></i> </a></li>
+              <li> <a href="#"> <i class="fa fa-github"></i> </a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- second column  -->
+        <div class="col-md-6">
+          <div class="leotms-home-last-projects">
+            {% include carousel.html name="LatestProjects" data=site.data.latestprojects %}
+            <div style="max-width: 300px; margin: 0 auto;">
+              <span class="sexy-line"></span>
+              <h3>LATEST PROJECTS</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+{% include footer.html %}
