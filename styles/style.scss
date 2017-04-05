@@ -135,6 +135,20 @@ $break-small-2: 692px;
 
 .leotms-pages-content {
   padding: 75px 5vw;
+
+  .leotms-page-title {
+    font-family: "OpenSansCL";
+    color: $color_blue;
+    font-size: 50px;
+    margin: 10px 0;
+  }
+
+  p {
+    text-align: justify;
+    max-width: 90%;
+    margin: 10px auto;
+  }
+
 }
 
 .leotms-navbar {
