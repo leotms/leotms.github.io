@@ -13,7 +13,7 @@ title: Leonardo Martínez
 email: martinezazuaje@gmail.com
 description: Computer Engineering student at Universidad Simón Bolívar, Venezuela.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://leotms.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leotms
 github_username:  leotms
 
