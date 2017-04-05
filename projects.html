@@ -6,16 +6,28 @@ permalink: /projects/
 
 <h3 class="leotms-page-title"> {{ page.title }} </h3>
 
+<p>Here's a list of my recent projects. Some of them are available on my <a href="https://github.com/leotms"> GitHub Profile.</a>
+</p>
+
 {% if site.posts.size > 0 %}
-  <ul>
   {% for post in site.posts %}
-    <li>
+  <div class="leotms-project-list-box">
       <a href="{{ post.url }}">
         <h2 class="leotms-project-title">{{ post.title }}</h2>
       </a>
-    </li>
+      {% if post.themes %}
+      <div class="leotms-project-theme-list">
+          <p> <span>Themes: </span>{{ post.themes }} </p>
+      </div>
+      {% endif %}
+      {% if post.image %}
+      <a href="{{ post.url }}">
+        <div class="img-box" style="background-image: url('{{ site.url }}{{ post.image }}')"></div>
+      </a>
+      {% endif %}
+      <p class="leotms-project-description">{{ post.description }}</p>
+  </div>
   {% endfor %}
-  </ul>
   {% else %}
   <p>There are no new projects available right. Come back soon!</p>
 {% endif %}

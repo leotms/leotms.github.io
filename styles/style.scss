@@ -135,6 +135,8 @@ $break-small-2: 692px;
 
 .leotms-pages-content {
   padding: 75px 5vw;
+  font-family: "OpenSansCL";
+  font-size: 20px;
 
   .leotms-page-title {
     font-family: "OpenSansCL";
@@ -147,6 +149,10 @@ $break-small-2: 692px;
     text-align: justify;
     max-width: 90%;
     margin: 10px auto;
+  }
+
+  span {
+    color: $color_blue;
   }
 
 }
@@ -214,4 +220,33 @@ $break-small-2: 692px;
 
 }
 
-/* any style customization must be before the bootstrap import */
+.leotms-project-list-box {
+
+  font-family: "OpenSansCL";
+  font-size: 20px;
+  width: 80%;
+  margin: 20px auto;
+
+  a {
+      text-decoration: none;
+  }
+
+  .leotms-project-title {
+    font-family: "OpenSansCL";
+    color: $color_blue;
+    font-size: 30px;
+  }
+
+  .img-box {
+    margin: 20px 30px 0 0;
+    float: left;
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 1px 1px 10px #888888;
+  }
+
+  .leotms-project-description  {
+    padding-top: 15px;
+  }
+}
