@@ -27,13 +27,22 @@
 
 /* RGB */
 $color_blue: #337ab7;
+/* Screen Sizes */
+$break-small: 992px;
+$break-small-2: 692px;
 
 .leotms-home {
   background: url('../img/homebackground.gif');
   background-repeat: repeat;
   height: 100vh;
+  width: 100%;
+  margin: 0;
   font-family: "CarroisGothic";
   color: #FFFFFF;
+
+  @media screen and (max-width: $break-small) {
+    height: 200vh;
+  }
 }
 
 .leotms-home-name {
@@ -43,6 +52,12 @@ $color_blue: #337ab7;
 .leotms-home-namebox {
 
   margin: 30vh 0 0 10vw;
+
+  @media screen and (max-width: $break-small) {
+    margin: 0;
+    padding: 30vh 0 0 10vw;
+    min-height: 100vh;
+  }
 
   ul {
     list-style-type: none;
@@ -73,21 +88,25 @@ $color_blue: #337ab7;
 
 .leotms-home-last-projects {
 
-    h3 {
-      color: $color_blue;
-      font-size: 25px;
-      font-weight: bold;
-      margin: 1vh auto;
-      text-align: center;
-    }
+  @media screen and (max-width: $break-small) {
+    min-height: 100vh;
+  }
 
-    h2, p {
-      text-align: center;
-    }
+  h3 {
+    color: $color_blue;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 1vh auto;
+    text-align: center;
+  }
 
-    .leotms-home-lastest-project-box {
-      margin: 5vh auto;
-    }
+  h2, p {
+    text-align: center;
+  }
+
+  .leotms-home-lastest-project-box {
+    margin: 5vh auto;
+  }
 }
 
 .leotms-home-carousel {
@@ -109,9 +128,76 @@ $color_blue: #337ab7;
     border:none;
     height:1px;
     background: #FFFFFF;
-    max-width: 500px;
+    width: 90%;
     margin-top: -10px;
     margin-bottom: 5px;
+}
+
+.leotms-pages-content {
+  padding: 75px 5vw;
+}
+
+.leotms-navbar {
+
+  background: url('../img/homebackground.gif');
+  background-repeat: repeat;
+  height: 60px;
+  width: 100%;
+  font-family: "CarroisGothic";
+  color: #FFFFFF;
+  display: -webkit-inline-box;
+  position: fixed;
+
+  .leotms-home-name {
+    font-size: 40px;
+    margin: 15px 0 0 15px;
+
+    @media screen and (max-width: $break-small-2) {
+      font-size: 25px;
+      margin: 4vh 0 0.5vh 1vh;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    a:hover {
+        color: $color_blue;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 0;
+  }
+
+  li {
+    float: left;
+    font-size: 20px;
+    margin: 4vh 0 0.5vh 1vh;
+
+    @media screen and (max-width: $break-small-2) {
+      font-size: 15px;
+      margin: 4vh 0 0.5vh 1vh;
+    }
+  }
+
+  li a {
+      font-family: "OpenSansCL";
+      display: block;
+      text-align: left;
+      padding-left: 15px;
+      text-decoration: none;
+      color: #FFFFFF;
+  }
+
+  li a:hover {
+      color: $color_blue;
+  }
+
 }
 
 /* any style customization must be before the bootstrap import */

@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+{{ page.title }}
+
+{% if site.posts.size > 0 %}
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <h2 class="leotms-project-title">{{ post.title }}</h2>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+  {% else %}
+  <p>There are no new projects available right. Come back soon!</p>
+{% endif %}
