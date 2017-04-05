@@ -24,7 +24,6 @@
   src: url('../fonts/monserratsemi.ttf');
 }
 
-
 /* RGB */
 $color_blue: #337ab7;
 /* Screen Sizes */
@@ -139,7 +138,7 @@ $break-small-2: 692px;
   font-size: 20px;
 
   .leotms-page-title {
-    font-family: "OpenSansCL";
+    font-family: "CarroisGothic";
     color: $color_blue;
     font-size: 50px;
     margin: 10px 0;
@@ -151,8 +150,23 @@ $break-small-2: 692px;
     margin: 10px auto;
   }
 
-  span {
+  span, i {
     color: $color_blue;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  h2 {
+    font-family: "CarroisGothic";
+    color: $color_blue;
+    font-size: 30px;
+    margin: 20px;
   }
 
 }
@@ -226,10 +240,6 @@ $break-small-2: 692px;
   font-size: 20px;
   width: 80%;
   margin: 20px auto;
-
-  a {
-      text-decoration: none;
-  }
 
   .leotms-project-title {
     font-family: "OpenSansCL";
