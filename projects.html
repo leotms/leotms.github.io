@@ -15,15 +15,25 @@ permalink: /projects/
       <a href="{{ post.url }}">
         <h2 class="leotms-project-title">{{ post.title }}</h2>
       </a>
+      {% if post.image %}
+      <a href="{{ post.url }}">
+        <img class="img-box" src="{{ site.url }}{{ post.image }}">
+      </a>
+      {% endif %}
+      {% if post.coauthors %}
+      <div class="leotms-project-theme-list">
+          <p> <span>Coauthors: </span>{{ post.coauthors }} </p>
+      </div>
+      {% endif %}
       {% if post.themes %}
       <div class="leotms-project-theme-list">
           <p> <span>Themes: </span>{{ post.themes }} </p>
       </div>
       {% endif %}
-      {% if post.image %}
-      <a href="{{ post.url }}">
-        <div class="img-box" style="background-image: url('{{ site.url }}{{ post.image }}')"></div>
-      </a>
+      {% if post.tools %}
+      <div class="leotms-project-theme-list">
+          <p> <span>Tools Used: </span>{{ post.tools }} </p>
+      </div>
       {% endif %}
       <p class="leotms-project-description">{{ post.description }}</p>
   </div>

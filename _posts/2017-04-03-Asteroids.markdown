@@ -1,10 +1,9 @@
 ---
 layout: posts
-title: Project 1
+title: Asteroids
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-image: /img/posts/post1.jpg
 categories: project
-themes: Artificial Intelligence
+themes: Theme1, Theme 2
 ---
 
 Nam elit purus, tempus vel velit non, laoreet tempus ligula. Suspendisse eu condimentum urna.
