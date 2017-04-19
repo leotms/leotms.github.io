@@ -146,7 +146,7 @@ $break-small-2: 692px;
 
   p {
     text-align: justify;
-    max-width: 90%;
+    max-width: 70%;
     margin: 10px auto;
   }
 
@@ -181,6 +181,7 @@ $break-small-2: 692px;
   color: #FFFFFF;
   display: -webkit-inline-box;
   position: fixed;
+  z-index: 1;
 
   .leotms-home-name {
     font-size: 40px;
@@ -258,5 +259,19 @@ $break-small-2: 692px;
 
   .leotms-project-description  {
     padding-top: 15px;
+  }
+}
+
+.leotms-cv-box {
+  margin: 10px auto;
+  max-width: 80%;
+}
+
+.leotms-column-box {
+  margin: 10px auto;
+  max-width: 70%;
+
+  p {
+    margin: 10px 5%;
   }
 }
