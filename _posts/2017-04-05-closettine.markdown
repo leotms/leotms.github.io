@@ -1,26 +1,20 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: Closettine
+description: Closettine is a second hand clothing selling website, developed for a startup from Nov 2016 to Mar 2017.
+image: /img/posts/logoclosettine.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Web Development, E-commerce.
+tools: WordPress, WooCommerce, PHP.
+coauthors: Daniel Leones.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo Closettine](/img/posts/logoclosettine.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+Closettine was one of the first big project I had to work in when I started working for [Inpetus](http://inpetus.com/). The main idea was to help this small startup to create a simple website where they could test their MVP, a second hand clothing selling website.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+I started alone, styling, building and adapting WordPress and WooCommerce to the requirements. Later on [Daniel Leones](https://bitbucket.org/dleones/) started working with me, helping in both front-end and back-end. This project represented a big challenge for me, because it was the first time I had to deal face-to-face with a external
+client and make almost everything by myself.
 
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
-
-Source code for this game will be released somewhere in the future.
+First prototipe was developed -half-time- from November 2016 to March 2017. The site was accesible through the domain
+[closettine.com](http://www.closettine.com) until March 2017. Current status of this project is unknown to me, since I stopped working in it after first prototipe was released.
