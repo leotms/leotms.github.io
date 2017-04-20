@@ -1,15 +1,12 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: Medicines in Twitter
+description: Identifying Demand and Offer of Medicines in Twitter using a Neural Network.
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes:  Artificial Intelligence, Neural Network.
+tools: Python, Pandas, Numpy, Tweepy, BirdWatcher and Twitter API.
+coauthors: Nicolás Mañan, Joel Rivas.
 ---
-
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
 
 FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
 

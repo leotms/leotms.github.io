@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: FantasMotel
+title: SIRADEx
 description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
 image: /img/posts/logofantasmotel.png
 categories: project

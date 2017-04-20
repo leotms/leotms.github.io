@@ -1,26 +1,17 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: K-means Algotithm for Image Compression
+description: Implementation of K-means algorithm for image compression using k colors.
+image: /img/posts/iaiii.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Artificial Intelligence, Clustrering.
+tools: Python, PIL, Pandas, Numpy.
+coauthors: Nicolás Mañan, Joel Rivas.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo Kmeans](/img/posts/iaiii.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+The idea of this project, as part of the assingment in the Artificial Intelligence elective, was to implement
+K-Means algoritm to compress an image, by classifing its pixels into clusters. This was, in my oppinion, the most simple yet funniest of all projects in this elective.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
-
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
-
-Source code for this game will be released somewhere in the future.
+Several image examples can be found inside the project's [GitHub repository](https://github.com/leotms/IAII_III). I've worked in this project with [Nicolás Mañan](https://github.com/nmanan) and [Joel Rivas](https://github.com/JoelRg). We used several python libraries to make this project work: Pandas and Numpy for data reading/processing and PIL to work with images.

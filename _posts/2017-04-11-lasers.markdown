@@ -1,15 +1,15 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: LAseRS
+description: LAseRS is a small interactive game of Augmented Reality programmed in Unity 5.5.0 that makes use of the tool Vuforia. 
+image: /img/posts/lasers.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Augmented Reallity, Videogame.
+tools: Unity 5.x, Vuforia, Photoshop.
+coauthors: Patricia Valencia, Cinthya Ramos.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo Lasers](/img/posts/lasers.png)
 
 FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
 

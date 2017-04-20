@@ -1,26 +1,23 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: ElementOs
+description: Augmented Reallity game to combine natural elements (water, earth, fire and air) and create new ones.
+image: /img/posts/elementos.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Augmented Reallity, Videogame.
+tools: Unity 5.x, ARToolKit, Photoshop.
+coauthors: Patricia Valencia, Cinthya Ramos.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo Elementos](/img/posts/elementos.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+<span>ElementOs</span> is a small interactive Augmented Reallity game created using Unity 5.5.0 and [ARToolKit](https://artoolkit.org).
+This was the first project for the area elective *Augmented Reallity* at USB. [Patricia Valencia](https://github.com/patriv) and
+[Cinthya Ramos](https://github.com/CinthyaRamos) were my teammates this time.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+The game works using a direct interaction system, since the user manipulates the augmented objects. It also
+works as an educational game, the user can learn in a simple way how real world materials like glass and pottery are created.
 
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
+There are a total of 19 elements in the game, 4 of them are the basic natural elements -water, earth, fire and air-. The 15 other elements can be created through combination.
 
-Source code for this game will be released somewhere in the future.
+More information about this project - and its source code- are available in its [GitHub repository](https://github.com/leotms/ElementOs)

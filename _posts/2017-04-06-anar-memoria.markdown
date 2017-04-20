@@ -1,26 +1,20 @@
 ---
 layout: posts
-title: FantasMotel
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+title: ANAR Memoria
+description: Educational memory game about rock paintings in Venezuela. Developed as community service for the Archivo Nacional de Arte Rupestre (ANAR).
+image: /img/posts/anarmemoria.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Web Development, Videogame, Educational.
+tools: Angular 1.x, Node.js, Loopback.io, Sockets.io, CouchDB, PouchDB.
+coauthors: Edward Fernández.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo AnarMemoria](/img/posts/anarmemoria.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+ANAR Memoria is a web based educational game, whose objective is to teach children in schools about rock paintings in Venezuela. [Edward Fernández](https://github.com/edansi94) and I started working in this project in April 2016, and the work ended in January 2017.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+The project was already started by another group of students, but it was only a single player game. Our main work consisted to implement a multiplayer game mode and adding some modifications to the single player mode, among several other corrections.
 
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
+For this, we decided using Node.js for the multiplayer server, and Loopback.io to create a simple REST API to control current active games and movements. For the realtime connection, we used Sockets.io.
 
-Source code for this game will be released somewhere in the future.
+The game is currently being served in one of the [USB servers](http://159.90.9.166:443), feel free to register and play it.
