@@ -150,6 +150,12 @@ $break-small-2: 692px;
     margin: 15% 0;
   }
 
+  .leotms-theanswer-title {
+    @extend .leotms-page-title;
+    font-size: 150px;
+    margin: 5% 0;
+  }
+
   p {
     text-align: justify;
     max-width: 70%;
