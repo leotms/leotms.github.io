@@ -95,6 +95,16 @@ $break-small-2: 692px;
 
   .leotms-home-lastest-project-box {
     margin: 5vh auto;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    p {
+      margin: 15% auto;
+      max-width: 350px;
+    }
   }
 }
 
@@ -162,6 +172,18 @@ $break-small-2: 692px;
   .caption {
     font-style: italic;
     text-align: center;
+  }
+
+  ul {
+    img {
+      max-width: none;
+      margin: 0 auto;
+      display: inline-block;
+
+      @media screen and (max-width: 1064px) {
+        display: block;
+      }
+    }
   }
 
 }

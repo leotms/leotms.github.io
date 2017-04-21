@@ -1,26 +1,37 @@
 ---
 layout: posts
 title: LAseRS
-description: LAseRS is a small interactive game of Augmented Reality programmed in Unity 5.5.0 that makes use of the tool Vuforia. 
+description: LAseRS is a small interactive game of Augmented Reality programmed in Unity 5.5.0 that makes use of the tool Vuforia.
 image: /img/posts/lasers.png
 categories: project
-themes: Augmented Reallity, Videogame.
+themes: Android, Augmented Reallity, Videogame.
 tools: Unity 5.x, Vuforia, Photoshop.
 coauthors: Patricia Valencia, Cinthya Ramos.
 ---
 
 ![Logo Lasers](/img/posts/lasers.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+<span>LAseRS</span> Is a game made as the final project of the Augmented Reallity elective. As in [ElementOs]({% post_url 2017-04-07-elementos %}), I've worked with [Patricia Valencia](https://github.com/patriv) and
+[Cinthya Ramos](https://github.com/CinthyaRamos) again.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+It was developed using Unity 5.5.0 and Vuforia. The main functionality consists in the recognition of marks that contain different lasers with the primary colors (Yellow, blue and red) and go combining lasers to achieve the right color and launch the spaceship.
 
-Here are some screenshots of the game:
+Here are some screenshots of the spaceship and the lasers :
+
 <ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
+<img alt="Nave" src="https://github.com/leotms/LAseRS/blob/master/Images/Cohete_RA.jpg?raw=true" width="300px !important;" >
 </ul>
 
-Source code for this game will be released somewhere in the future.
+<ul style="display:table; margin: 0 auto;">
+<img alt="Laser Rojo" src="https://github.com/leotms/LAseRS/blob/master/Images/Pistola_LaserAmarillo_RA.jpg?raw=true" width="300px" >
+<img alt="Laser Azul" src="https://github.com/leotms/LAseRS/blob/master/Images/Pistola_LaserAzul_RA.jpg?raw=true" width="300px" >
+<img alt="Laser Amarillo" src="https://github.com/leotms/LAseRS/blob/master/Images/Pistola_LaserRojo_RA.jpg?raw=true" width="300px" >
+</ul>
+
+Isn't it cute how the spaceship takes off?
+
+<ul style="display:table; margin: 0 auto;">
+<img alt="Cohete" src="https://github.com/leotms/LAseRS/blob/master/Images/Despegue_Cohete.jpg?raw=true" width="300px !important;" >
+</ul>
+
+Source code and some APK for testing are available in [LAseRS GitHub repository](https://github.com/leotms/LAseRS).

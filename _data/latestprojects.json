@@ -1,12 +1,27 @@
 [
   {
-    "title": "Project 1",
-    "description": "Project 1 Description",
-    "url": "an url"
+    "title": "LAseRS",
+    "description": "LAseRS is a small interactive game of Augmented Reality programmed in Unity 5.5.0 that makes use of the tool Vuforia",
+    "url": "/project/2017/04/11/lasers.html"
   },
   {
-    "title": "Project 2",
-    "description": "Project 2 Description",
-    "url": "an url"
+    "title": "Medicines in Twitter",
+    "description": "Identifying Demand and Offer of Medicines in Twitter using a Neural Network",
+    "url": "/project/2017/04/10/medicamentos.html"
   },
+  {
+    "title": "SIRADEx",
+    "description": "Sistema de Registro de Actividades de Extensión (SIRADEx) created as a project of the Information Systems elective for the USB Extension Deanery",
+    "url": "/project/2017/04/09/siradex.html"
+  },
+  {
+    "title": "ANAR Memoria",
+    "description": "Educational memory game about rock paintings in Venezuela. Developed as community service for the Archivo Nacional de Arte Rupestre (ANAR)",
+    "url": "/project/2017/04/06/anar-memoria.html"
+  },
+  {
+    "title": "K-means Algotithm for Image Compression",
+    "description": "Implementation of K-means algorithm for image compression using k colors",
+    "url": "/project/2017/04/08/ia-iii.html"
+  }
 ]
