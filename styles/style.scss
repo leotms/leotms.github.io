@@ -159,6 +159,11 @@ $break-small-2: 692px;
     margin: 20px;
   }
 
+  .caption {
+    font-style: italic;
+    text-align: center;
+  }
+
 }
 
 .leotms-project-content {
@@ -238,7 +243,8 @@ $break-small-2: 692px;
   font-family: "OpenSansCL";
   font-size: 20px;
   width: 80%;
-  margin: 5% auto;
+  margin: 0 auto;
+  min-height: 350px;
 
   .leotms-project-title {
     font-family: "OpenSansCL";

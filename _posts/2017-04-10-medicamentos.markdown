@@ -8,16 +8,10 @@ tools: Python, Pandas, Numpy, Tweepy, BirdWatcher and Twitter API.
 coauthors: Nicolás Mañan, Joel Rivas.
 ---
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+This was the last project of Artificial Intelligence elective, and it was a free choosing one. [Nicolás Mañan](https://github.com/nmanan), [Joel Rivas](https://github.com/JoelRg) and I decided, with the help of our professor Dr. Carolina Martínez, to train a Neural Network under supervised learning and classify tweets that either demand or offer medicines in Venezuela.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+For Venezuelans, it's not a secret that the crisis of medicines (that started somewhere around 2013 and has remain until present) has led people to use Twitter as a tool for searching and offering medicines. This study was meant to facilitate the search of medications on Twitter using an Artificial Intelligence.
 
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
+The neural network was trained with traing and testing sets of 6000 tuits manually classified and pre-processed according to characteristics that gave better experimental results in the classification. As a result, the best neuronal network obtained was capable to identify tweets with 84% accuracy and 92% recall for supply tics, 87% for demand and 74% for other tweets.
 
-Source code for this game will be released somewhere in the future.
+Source code for this project, and further results can be found in the [project's GitHub repository](https://github.com/leotms/IAII_Final_Project).

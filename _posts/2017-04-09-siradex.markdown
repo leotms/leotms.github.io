@@ -1,26 +1,28 @@
 ---
 layout: posts
 title: SIRADEx
-description: FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. Also, we won!
-image: /img/posts/logofantasmotel.png
+description: Sistema de Registro de Actividades de Extensión (SIRADEx) created as a project of the Information Systems elective for the USB Extension Deanery.
+image: /img/posts/siradex.png
 categories: project
-themes: Videogame, Game Jam.
-tools: Godot Game Engine, Photoshop, PAINT.net, Piskel.
-coauthors: Aldrix Marfil.
+themes: Web Development, Information Systems.
+tools: Python, Web2Py, PostgreSQL.
+coauthors: Prometheus and Morpheus Teams.
 ---
 
-![Logo FantasMotel](/img/posts/logofantasmotel.png)
+![Logo siradex](/img/posts/siradex.png)
 
-FantasMotel is a simple videogame created in 48hrs for the Venezuela Duel Jam 2. It was created by me (programming) and [Aldrix Marfil](https://github.com/aldrix) (art). The game was the winner of this Game Jam, voted by all the contestants.
+SIRADEx is one of my most recent projects and figures as one of the most satisfactory as well. As a part
+of the Information Systems elective, students are supposed to work in teams to create a new Information System
+(or continue a previous one) to an USB dependency.
 
-It was developed using [Godot Game Engine](https://godotengine.org/). More info and download links for FantasMotel
-can be found in [its itchio page](https://leotms.itch.io/fantasmotel).
+In this case *Prometheus* (my team) and *Morpheus* had to work in SIRADEx, for the Extension Deanery. SIRADEx is a system that helps register, approve and consult all Extension Activities carried out by university community members.
 
-Here are some screenshots of the game:
-<ul style="display:table; margin: 0 auto;">
-<img alt="fantasmotel1" src="/img/posts/fantasmotel1.png" width="300px" >
-<img alt="fantasmotel2" src="/img/posts/fantasmotel2.png" width="300px" >
-<img alt="fantasmotel3" src="/img/posts/fantasmotel3.png" width="300px" >
-</ul>
+We work together for about 7 months and we ended up with a system that had 100% approval as a first version
+for the use of the Extension Deanery.
 
-Source code for this game will be released somewhere in the future.
+I was selected by my teammates as Team Leader, buy I also did some heavy work in programming and refactoring some of the modules. The Project used Web2py, a Python framework for web development, and PostgreSQL as database.
+
+SIRADEx can be accessed [through its official site](http://siradex.dex.usb.ve). Visitors have access to make public searces, only USB members can log in.
+
+<img src="/img/posts/prometheus.png" style="display: block; margin: 0 auto; max-width: 500px">
+<p class="caption"> Here's a photo of my <span>amazing</span> team, *Prometheus*. From left to right: <span>Georvic Tur</span>, <span>Cinthya Ramos</span>, <span>José Manuel Barrientos</span>, <span>Me</span>, <span>Patricia Valencia</span>, <span>Edward Fernández</span>, <span>Arleyn Goncalves</span> and <span>Chiseng Ng</span> .</p>
