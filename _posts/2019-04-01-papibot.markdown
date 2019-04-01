@@ -1,0 +1,12 @@
+---
+layout: posts
+title: PapiBot
+description: Papibot is a Twitter Bot, designed just for fun.
+image: /img/posts/papibot.jpg
+categories: project
+themes: Python, Twitter, Fun
+tools: TweetPy, Heroku
+coauthors: Sahid Reyes.
+---
+
+-- Under Construction --
