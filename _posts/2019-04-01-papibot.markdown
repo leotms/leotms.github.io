@@ -25,13 +25,13 @@ You can think "why putting a side project like this in your website?" Well, we l
 **2. Gathering the verbs was quite a task.** We found few to none free sources of spanish verbs. Leading us to collect and conjugate most of them (manually). We collected more than 2.800, adding 
 some venezuelan regionalisms to spice things a little.
 
-**3. Did you know many of developers make bots in twitter just for fun?** Well, we know now. After creating PapiBot, we contacted Jake, which showed really excited about it, and even helped us with his own list of verbs!. Also, I could personnaly get in touch for the first time with [Ciro Duran](https://twitter.com/chiguire), an AWESOME venezuelan game developer which I personnaly admire and, casually, also happens to make twitter bots and was really curious about how we created this bot.
+**3. Did you know many of developers make bots in twitter just for fun?** Well, we know now. After creating PapiBot, we contacted Jake, which showed really excited about it, and even helped us with his own list of verbs!. Also, I could get in touch for the first time with [Ciro Duran](https://twitter.com/chiguire), an AWESOME venezuelan game developer which I personally admire and, casually, also happens to make twitter bots and was really curious about how we created this bot.
 
-**4. Watching user interactions with our bot is INCREDIBLE!** We see everyday how people from all arround the world (most of them latin americans or spanish speakers) interact with every tweet and have lots of fun with it. Every day a new verb comes out and people creativity shines.
+**4. Watching user interactions with our bot is INCREDIBLE!** We see everyday how people from all around the world (most of them latin americans or spanish speakers) interact with every tweet and have lots of fun with it. Every day a new verb comes out and people creativity shines.
 
-**5. It made me more aware of the huge Developing Comunity in Twitter.** And now I read more from developers arround the world about their most interesting experiences and advises in tech industry.
+**5. It made me more aware of the huge Developing Community in Twitter.** And now I read more from developers around the world about their most interesting experiences and advises in tech industry.
 
 **6. It was FUN.** And I do think this is the most important lesson. I strongly believe you learn
 the most when you're creating something you enjoy, regardless it is just for fun and there's no live-changing reason behind it.
  
-If your curious and wanna give a follow to our bot, just go check [PapiBot on Twitter](https://twitter.com/botmepapi). We are continously adding new verbs, when it reaches a certain point we'll release its verb list so other people can use them to create more interesting and funny things too!
+If you're curious and wanna to give a follow to our bot, just go check [PapiBot on Twitter](https://twitter.com/botmepapi). We are continously adding new verbs, when it reaches a certain point we'll release its verb list so other people can use them to create more interesting and funny things too!
