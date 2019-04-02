@@ -27,7 +27,7 @@ some venezuelan regionalisms to spice things a little.
 
 **3. Did you know many of developers make bots in twitter just for fun?** Well, we know now. After creating PapiBot, we contacted Jake, which showed really excited about it, and even helped us with his own list of verbs!. Also, I could personnaly get in touch for the first time with [Ciro Duran](https://twitter.com/chiguire), an AWESOME venezuelan game developer which I personnaly admire and, casually, also happens to make twitter bots and was really curious about how we created this bot.
 
-**4. Whatching user interactions with our bot is INCREDIBLE!** We see everyday how people from all arround the world (most of them latin americans or spanish speakers) interact with every tweet and have lots of fun with it. Every day a new verb comes out and people creativity shines.
+**4. Watching user interactions with our bot is INCREDIBLE!** We see everyday how people from all arround the world (most of them latin americans or spanish speakers) interact with every tweet and have lots of fun with it. Every day a new verb comes out and people creativity shines.
 
 **5. It made me more aware of the huge Developing Comunity in Twitter.** And now I read more from developers arround the world about their most interesting experiences and advises in tech industry.
 
