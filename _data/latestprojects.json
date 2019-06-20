@@ -1,13 +1,8 @@
-[
+﻿[
   {
     "title": "PapiBot",
     "description": "Just another twitter bot, but one of the most fun projects I've done so far.",
     "url": "/project/2019/04/01/papibot.html"
-  },
-  {
-    "title": "Closed Questions on Stack Overflow",
-    "description": "Using several approaches to predict whether or not a question in Stack Overflow will be closed.",
-    "url": "/project/2019/04/01/stack_overflow.html"
   },
   {
     "title": "LAseRS",
